@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    
+    <title>Home</title>
+    <link rel="icon" href="./images/weather.png">
+    
+</head>
+<body>
+    <div class="main-content">
+        {{>header}}    
+
+        <h3>Real-Time Weather Update</h3>
+    
+        <form action="">
+            <input type="text" placeholder="Enter Location">
+            <button>Search</button>
+        </form>
+    
+            <div class="content">
+                <span id="message-1"></span>
+                <br><br>
+                <span id="message-2"></span>
+                <br><br>
+                <h3>Latitude: <span id="message-3"></span></h3>
+                <h3>Longitude: <span id="message-4"></span></h3>
+            </div>
+    </div>
+         
+     &nbsp;
+    {{>footer}}
+
+    <script src="./js/app.js"></script>
+</body>
+</html>         

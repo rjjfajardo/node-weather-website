@@ -1,0 +1,87 @@
+body { 
+    color: #333333;
+    font-family:arial ;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    
+    border-top: 1px solid #333333;
+    padding: 20px;
+}
+.main-content { 
+    flex-grow: 1;
+  
+}
+
+footer p{
+    font-size: 20px;
+    color: #333333;
+    text-align: center;
+    
+}
+.navbar-item {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+.navbar-item a{
+    text-decoration: none;
+    color: white;  
+    font-size: 15px;
+    padding: 2px;   
+    
+    
+}
+.navbar-item button {
+    padding: 12px;
+    background: rgb(34, 185, 34);
+    border-style: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 100px;
+}
+.navbar-item button:hover {
+    background-color: #333333;
+   
+}
+.main-content p { 
+    font-size: 100px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+input {
+    border: 1px solid #cccccc;
+    padding: 10px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 10px;
+}
+
+.main-content #message-1 {
+    border: 1px solid red;
+    color: white;
+    padding: 5px;
+    background: red;
+}
+/* .main-content #message-2 {
+    border: 1px solid red;
+    color: white;
+        
+    background: red;
+} */
+.content {
+    margin-top: 20px;
+}
