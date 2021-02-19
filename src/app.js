@@ -10,6 +10,9 @@ const geocode = require('./utils/geocode')
 //console.log(__dirname)
 
 const app = express()
+
+const port = process.env.PORT || 3000
+
 const publicDirectoryPath = path.join(__dirname, '../public')
 const viewPath = path.join(__dirname, '../templates/views')
 const partialPath = path.join(__dirname, '../templates/partials')
@@ -99,6 +102,6 @@ app.get('*' , (req, res) => {
 
 
 
-app.listen(3000, () => {
-    console.log('Listening to port 3000!')
+app.listen(port, () => {
+    console.log('Listening to port' + port)
 })
